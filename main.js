@@ -13,3 +13,7 @@ for (let i = 0; i < 10; i++) {
       console.log(error);
     });
 }
+
+// PRENDO ELEMENTO CONTAINER
+const containerElement = document.getElementById("mail-container");
+console.log(containerElement);

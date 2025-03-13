@@ -8,5 +8,8 @@ for (let i = 0; i < 10; i++) {
     .then((response) => {
       const email = response.data.response;
       console.log(email);
+    })
+    .catch((error) => {
+      console.log(error);
     });
 }
